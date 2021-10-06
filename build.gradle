@@ -1,0 +1,20 @@
+plugins {
+    id 'java'
+    id 'java-library'
+    id 'idea'
+    id 'eclipse'
+}
+
+group 'com.github.rzcastilho.axonframework'
+version '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+    maven { url "https://jitpack.io" }
+}
+
+dependencies {
+    implementation group: 'com.github.rzcastilho', name: 'axonframework-actuator', version: 'master'
+    implementation group: 'com.github.rzcastilho', name: 'axonframework-actuator-autoconfigure', version: 'master'
+    implementation group: 'org.springframework.boot', name: 'spring-boot', version: '2.5.5'
+}
