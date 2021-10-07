@@ -12,7 +12,7 @@ repositories {
 }
 
 dependencies {
-    implementation group: 'com.github.rzcastilho', name: 'axonframework-actuator', version: 'edda023'
-    implementation group: 'com.github.rzcastilho', name: 'axonframework-actuator-autoconfigure', version: '215d0a2'
+    implementation group: 'com.github.rzcastilho', name: 'axonframework-actuator', version: 'd0ef563'
+    implementation group: 'com.github.rzcastilho', name: 'axonframework-actuator-autoconfigure', version: '12f6b03'
     implementation group: 'org.springframework.boot', name: 'spring-boot-starter', version: '2.5.5'
 }
